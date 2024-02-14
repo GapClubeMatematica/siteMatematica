@@ -1,3 +1,13 @@
+// Função para inicializar a API do Google Sheets
+function initGoogleSheetsApi() {
+  gapi.client.init({
+    apiKey: 'AIzaSyARGYc6I4c43n6WlpPU4n1Uon2_Aj0lGBk',
+    discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
+  }).then(function() {
+    loadProfessoresFromGoogleSheet();
+  });
+}
+
 function loadProfessoresFromGoogleSheet() {
   const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk'; 
   const sheetName = 'professores';
