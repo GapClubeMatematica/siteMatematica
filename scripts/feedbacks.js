@@ -18,7 +18,7 @@ function loadFeedbacksFromGoogleSheet() {
         const data = response.result.values;
 
         if (data.length > 0) {
-            const feedbacksContainer = document.querySelector('.carousel-inner'); 
+            const feedbacksContainer = document.querySelector('#carouselFeedbacks .carousel-inner'); 
             feedbacksContainer.innerHTML = '';
 
             data.forEach(function (row, index) {
