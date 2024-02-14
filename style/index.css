@@ -28,3 +28,7 @@
 .sobre-nos-link-text:hover {
     color: #ffca28; 
 }
+.imagem-feedback {
+    max-width: 150px;
+    max-height: 150px;
+  }
