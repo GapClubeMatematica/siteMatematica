@@ -11,12 +11,13 @@ function loadProfessoresFromGoogleSheet() {
 
     if (data.length > 0) {
       const carouselInner = document.querySelector('#carouselProfessores .carousel-inner');
+      let isFirstItem = true; // Variável para verificar se é o primeiro item do carrossel
 
-      data.forEach(function(row, index) {
+      data.forEach(function(row) {
         const [nome, area, formacao, imagem] = row;
 
         const carouselItem = document.createElement('div');
-        carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : ''); // Sem verificação do índice aqui
+        carouselItem.className = 'carousel-item' + (isFirstItem ? ' active' : ''); // Marca como ativo apenas se for o primeiro item
 
         const cardHtml = `
           <div class="row">
@@ -36,10 +37,11 @@ function loadProfessoresFromGoogleSheet() {
 
         carouselItem.innerHTML = cardHtml;
         carouselInner.appendChild(carouselItem);
+
+        isFirstItem = false; // Marca que o primeiro item já foi encontrado
       });
     }
   });
 }
 
 gapi.load('client', initGoogleSheetsApi);
-
