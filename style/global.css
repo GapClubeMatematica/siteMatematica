@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: #fff; 
+    border-radius:  0px 0px 25px 25px; 
+    padding: 20px 0; 
+}
+.amarelo{
+    color: #ffc107;
+}
+.branco{
+    color: white;
+}
+.navbar-brand {
+    font-size: 1.5rem; 
+}
+.nav-link {
+   color: #ffffff; 
+}
+.nav-link:hover {
+    color: #ffc107; 
+}
+.logo-img {
+    width: 110px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+.titulo-grande {
+    font-size: 5rem; 
+}
+.titulo-medio {
+    font-size: 3rem; 
+}
+
+.fonte-cursiva{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.fonte-normal{ 
+    font-family: 'Merriweather', serif; 
+}
+
+.text-decoration-none {
+    text-decoration: none !important; 
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+.text-yellow {
+    color: #ffc107 !important; 
+  }
+
+  .text-yellow:hover {
+    color: #ffca28 !important; 
+  }
+
+  .text-yellow:focus, .text-yellow:active {
+    color: #ffc107 !important; 
+  }
+  .carousel-item img {
+    height: 550px; 
+    object-fit: cover; 
+  }

@@ -1,0 +1,32 @@
+.video-aulas {
+    background-color: #f9f9f9; 
+    padding: 50px 20px; 
+  }
+  
+  .video-aulas h2 {
+    font-size: 3rem; 
+    font-family: 'Merriweather', serif; 
+    color: #ffc107; 
+  }
+  
+  .video-card {
+    background-color: #fff; 
+    border-radius: 15px; 
+    padding: 20px; 
+    margin-top: 30px; 
+  }
+  
+  .video-card img {
+    border-radius: 15px; 
+  }
+  
+  .video-card h3 {
+    font-size: 2rem; 
+    margin-top: 20px; 
+  }
+  
+  .video-card p {
+    font-size: 1.2rem; 
+    color: #6c757d; 
+  }
+  
