@@ -23,7 +23,7 @@ function loadProfessoresFromGoogleSheet() {
       const carouselInner = document.querySelector('#carouselProfessores .carousel-inner');
 
       data.forEach(function(row, index) {
-        const [nome, curso, periodo, depoimento, imagem] = row;
+        const [nome, area, formacao, imagem] = row;
 
         const carouselItem = document.createElement('div');
         carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
@@ -35,9 +35,9 @@ function loadProfessoresFromGoogleSheet() {
                 <img src="${imagem}" class="card-img-top rounded-circle mx-auto mt-3" alt="${nome}" style="max-width: 180px; max-height: 180px;">
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
                   <h5 class="card-title">${nome}</h5>
-                  <p class="card-text">Curso: ${curso}</p>
-                  <p class="card-text">Ano/Período: ${periodo}</p>
-                  <p class="card-text">${depoimento}</p>
+                  <p class="card-text">Área: ${area}</p>
+                  <p class="card-text">Formação: ${formacao}</p>
+              
                 </div>
               </div>
             </div>
