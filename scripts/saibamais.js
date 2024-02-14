@@ -81,16 +81,14 @@ function loadBolsistasFromGoogleSheet() {
       const bolsistasContainer = document.querySelector('#bolsistasContainer');
 
       
-      for (let i = 0; i < data.length; i += 3) {
+      for (let i = 0; i < data.length; i += 2) {
         const row1 = data[i];
         const row2 = data[i + 1];
-        const row3 = data[i + 2];
 
         const rowHtml = `
           <div class="row mt-4">
             ${createBolsistaCard(row1)}
             ${createBolsistaCard(row2)}
-            ${createBolsistaCard(row3)}
           </div>
         `;
 
@@ -100,15 +98,14 @@ function loadBolsistasFromGoogleSheet() {
   });
 }
 
-
 function createBolsistaCard(dataRow) {
   if (dataRow) {
     const [nome, curso, periodo, imagem] = dataRow;
 
     return `
-      <div class="col-md-4 mb-4">
+      <div class="col-md-6 mb-4">
         <div class="card border-0">
-          <img src="${imagem}" class="card-img-top rounded-circle" alt="${nome}" style="max-width: 180px; max-height: 180px;">
+          <img src="${imagem}" class="card-img-top rounded-circle mx-auto mt-3" alt="${nome}" style="max-width: 180px; max-height: 180px;">
           <div class="card-body">
             <h5 class="card-title text-center">${nome}</h5>
             <p class="text-center">${curso}</p>
@@ -121,5 +118,6 @@ function createBolsistaCard(dataRow) {
     return ''; 
   }
 }
+
 
 gapi.load('client', initGoogleSheetsApi);
