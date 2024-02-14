@@ -1,13 +1,3 @@
-// Função para inicializar a API do Google Sheets
-function initGoogleSheetsApi() {
-  gapi.client.init({
-    apiKey: 'AIzaSyARGYc6I4c43n6WlpPU4n1Uon2_Aj0lGBk',
-    discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
-  }).then(function() {
-    loadProfessoresFromGoogleSheet();
-  });
-}
-
 // Função para carregar os dados dos professores da planilha
 function loadProfessoresFromGoogleSheet() {
   const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk'; 
@@ -26,7 +16,7 @@ function loadProfessoresFromGoogleSheet() {
         const [nome, area, formacao, imagem] = row;
 
         const carouselItem = document.createElement('div');
-        carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : '');
+        carouselItem.className = 'carousel-item' + (index === 0 ? ' active' : ''); // Sem verificação do índice aqui
 
         const cardHtml = `
           <div class="row">
@@ -52,3 +42,4 @@ function loadProfessoresFromGoogleSheet() {
 }
 
 gapi.load('client', initGoogleSheetsApi);
+
