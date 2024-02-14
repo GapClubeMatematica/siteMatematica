@@ -108,8 +108,8 @@ function createBolsistaCard(dataRow) {
     return `
       <div class="col-md-4 mb-4">
         <div class="card border-0">
-           <img src="${imagem}" class="card-img-top" rounded-circle  alt="${nome}" style="max-width: 180px; max-height: 180px; >          
-           <div class="card-body">
+          <img src="${imagem}" class="card-img-top rounded-circle" alt="${nome}" style="max-width: 180px; max-height: 180px;">
+          <div class="card-body">
             <h5 class="card-title text-center">${nome}</h5>
             <p class="text-center">${curso}</p>
             <p class="text-center">${periodo}</p>
@@ -121,4 +121,5 @@ function createBolsistaCard(dataRow) {
     return ''; 
   }
 }
+
 gapi.load('client', initGoogleSheetsApi);
