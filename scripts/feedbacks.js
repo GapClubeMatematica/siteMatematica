@@ -35,8 +35,8 @@ function loadFeedbacksFromGoogleSheet() {
                 
                 const feedbackItem = `
                     <div class="carousel-item ${activeClass}">
-                        <div class="card text-center border-0">
-                            <img src="${image}" class="card-img-top rounded-circle mx-auto mt-3" alt="${name}">
+                    <div class="card text-center border-0"> 
+                        <img src="${image}" class="card-img-top rounded-circle mx-auto mt-3 imagem-feedback" alt="${name}">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">${name}</h5>
                                 <p class="card-text">Curso: ${course}</p>
