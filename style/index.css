@@ -16,7 +16,7 @@
     text-decoration: none; 
 }
 .sobre-nos-link-text:hover {
-    color: #ffca28; 
+    color: #000000; 
 }
 .imagem-feedback {
     max-width: 150px;
@@ -48,6 +48,9 @@
     .sobre-nos-link img {
         width: 25px; 
     }
+    .card-title {
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -63,5 +66,11 @@
     .sobre-nos-link img {
         width: 25px; 
     }
+    
+    .card-title {
+        font-size: 0.8rem;
+    }
+      
+      
 }
 
