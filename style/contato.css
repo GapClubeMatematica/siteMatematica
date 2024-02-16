@@ -46,7 +46,7 @@
   .mapa-container {
     position: relative;
     padding-top: 0;
-    padding-bottom: 56.25%; /* Proporção de 16:9 */
+    padding-bottom: 56.25%; 
     overflow: hidden;
   }
 
@@ -63,7 +63,7 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Adicionado margem superior */
+    margin-top: 20px; 
   }
 
   .horario h2 {
