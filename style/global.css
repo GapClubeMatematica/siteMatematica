@@ -1,7 +1,9 @@
 body{
     background-color:  rgba(255, 253, 219, 0.719);
 }
-
+.card{
+    background-color: transparent;
+}
 .navbar {
     border-radius:  0px 0px 25px 25px; 
     padding: 20px 0; 
