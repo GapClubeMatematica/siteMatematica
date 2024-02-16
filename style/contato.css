@@ -105,7 +105,7 @@
   .horario {
     margin: 10px;
   }
-  #formulario {
+  .col-12{
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -131,7 +131,7 @@
    .horario {
     margin: 20px;
   }
-  #formulario {
+  .col-12{
     margin-left: 40px;
     margin-right: 40px;
   }
