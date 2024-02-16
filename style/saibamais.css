@@ -1,14 +1,16 @@
 /* Estilos para dispositivos móveis */
 @media (max-width: 576px) {
-    /* Diminuir tamanho do título do card de bolsista */
-    .card-title {
-      font-size: 1rem;
+    .card{
+        margin: 20px;
     }
-    /* Diminuir tamanho do texto do card de bolsista */
+    .card-title {
+      font-size: 0.9rem;
+    }
+   
     .card-text {
       font-size: 0.8rem;
     }
-    /* Adicionar margem aos cards de bolsistas */
+    
     .col-md-4 {
       margin-bottom: 30px;
     }
@@ -16,17 +18,19 @@
   
   /* Estilos para tablets */
   @media (max-width: 768px) {
-    /* Diminuir tamanho do título do card de bolsista */
-    .card-title {
-      font-size: 1.2rem;
+    .card{
+        margin: 40px;
     }
-    /* Diminuir tamanho do texto do card de bolsista */
+    .card-title {
+      font-size: 1rem;
+    }
+   
     .card-text {
       font-size: 0.9rem;
     }
-    /* Adicionar margem aos cards de bolsistas */
+    
     .col-md-4 {
       margin-bottom: 40px;
     }
   }
-  
+
