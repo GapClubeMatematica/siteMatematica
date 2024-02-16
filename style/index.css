@@ -1,4 +1,7 @@
-
+.carousel {
+    background-color: transparent;
+  }
+  
 .sobre-nos-link {
     display: flex; 
     align-items: center; 
