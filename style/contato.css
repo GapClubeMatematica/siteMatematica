@@ -105,10 +105,7 @@
   .horario {
     margin: 10px;
   }
-  .col-12{
-    margin:10px;
-   
-  }
+  
 }
 
 /* Estilos para tablets */
@@ -131,8 +128,5 @@
    .horario {
     margin: 20px;
   }
-  .col-12{
-    margin-left: 40px;
-    margin-right: 40px;
-  }
+  
 }
