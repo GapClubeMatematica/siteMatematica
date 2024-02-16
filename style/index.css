@@ -1,16 +1,7 @@
-#carouselFeedbacks.carousel {
-  background-color: transparent !important;
+#carouselFeedbacks .carousel-item img {
+  background-color: transparent;
 }
-
-#carouselFeedbacks .carousel-inner {
-  background-color: transparent !important;
-}
-
-#carouselFeedbacks .carousel-item {
-  background-color: transparent !important;
-}
-
-  
+ 
 .sobre-nos-link {
     display: flex; 
     align-items: center; 
