@@ -12,7 +12,7 @@
     }
     
     .col-md-4 {
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
     p{
         font-size: 0.9rem;
@@ -22,7 +22,7 @@
   /* Estilos para tablets */
   @media (max-width: 768px) {
     .card{
-        margin: 40px;
+        margin: 30px;
     }
     .card-title {
       font-size: 1rem;
@@ -33,7 +33,7 @@
     }
     
     .col-md-4 {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
     p{
         font-size: 0.9rem;
