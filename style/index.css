@@ -1,10 +1,10 @@
-.carousel {
-    background-color: transparent;
-  }
-  
-  .carousel-inner {
-    background-color: transparent; 
-  }
+#carouselFeedbacks.carousel {
+  background-color: transparent;
+}
+
+#carouselFeedbacks .carousel-inner {
+  background-color: transparent;
+}
   
 .sobre-nos-link {
     display: flex; 
