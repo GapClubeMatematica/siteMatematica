@@ -1,6 +1,4 @@
-.card{
-    background-color: transparent;
-}
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 576px) {
     .card{
