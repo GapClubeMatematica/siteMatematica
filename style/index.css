@@ -1,10 +1,15 @@
 #carouselFeedbacks.carousel {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 #carouselFeedbacks .carousel-inner {
-  background-color: transparent;
+  background-color: transparent !important;
 }
+
+#carouselFeedbacks .carousel-item {
+  background-color: transparent !important;
+}
+
   
 .sobre-nos-link {
     display: flex; 
