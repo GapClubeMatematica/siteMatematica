@@ -6,11 +6,11 @@
     }
     /* Diminuir tamanho do texto do card de bolsista */
     .card-text {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
     /* Adicionar margem aos cards de bolsistas */
     .col-md-4 {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
   }
   
@@ -22,11 +22,11 @@
     }
     /* Diminuir tamanho do texto do card de bolsista */
     .card-text {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
     /* Adicionar margem aos cards de bolsistas */
     .col-md-4 {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
   }
   
