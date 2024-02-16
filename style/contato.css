@@ -85,3 +85,31 @@
   .horario ul li strong {
     color: #ffc107;
   }
+
+  /* Estilos para dispositivos móveis */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .form-label,
+  .form-control {
+    font-size: 0.9rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
+/* Estilos para tablets */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .form-label,
+  .form-control {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 0.9rem;
+  }
+}
