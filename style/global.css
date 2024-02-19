@@ -12,9 +12,16 @@ body{
 .amarelo{
     color: #ffc107;
 }
-.navbar-toggler .navbar-toggler-icon {
-    color: white; 
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.5); /* Define a cor de fundo do botão do menu */
+    border-color: transparent; /* Remove a borda do botão */
 }
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none; /* Remove a borda de foco */
+}
+
 
 
 .branco{
