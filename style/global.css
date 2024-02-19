@@ -12,6 +12,9 @@ body{
 .amarelo{
     color: #ffc107;
 }
+.navbar-toggler-icon {
+    color: white; 
+}
 
 .branco{
     color: white;
